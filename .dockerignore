@@ -1,8 +1,11 @@
 venv/
+infra/
+test/
 __pycache__/
 *.pyc
 *.pyo
 .git
+.github
 .gitignore
 .env
 .DS_Store
