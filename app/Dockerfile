@@ -11,7 +11,7 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 # Copy application files into container
-COPY app/ .
+COPY . .
 
 # Set port for uvicorn
 ENV PORT=8080
